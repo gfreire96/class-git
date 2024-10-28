@@ -81,7 +81,8 @@ git branch -M main
 Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 - **Dante Nicolás Martinez**
 - **Segundo Semestre Parte 1:**
-  - [IntroYpractica](https://drive.google.com/file/d/1yFihiQVMKXJvOXSwMdczrCesocRS9heY/view?usp=drive_link)
+
+### [IntroYpractica](https://drive.google.com/file/d/1yFihiQVMKXJvOXSwMdczrCesocRS9heY/view?usp=drive_link)
 
 ### [PDF](https://docs.google.com/presentation/d/10QC9Ii6zvYgTa5fbzUJGNC8z9LukEN5r/edit?usp=drive_link&ouid=103827187004520077964&rtpof=true&sd=true)
 
