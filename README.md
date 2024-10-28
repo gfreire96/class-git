@@ -192,3 +192,68 @@ Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 *Profesor Ariel Betancud*
+
+--------------------
+
+# CLASE 04 MIÉRCOLES 4 DE SEPTIEMBRE DEL 2024 - Portafolio 4
+
+## Tu primer push: Configuración SSH
+
+La creación de las SSH es necesario solo una vez por cada computadora. Aquí conocerás cómo conectar a GitHub usando SSH.
+
+### Configuración de SSH en GitHub
+
+Luego de crear nuestras llaves SSH podemos entregarle la llave pública a GitHub para comunicarnos de forma segura y sin necesidad de escribir nuestro usuario y contraseña todo el tiempo. Para esto debes:
+
+1. Entrar a la Configuración de Llaves SSH en GitHub
+2. Crear una nueva llave con el nombre que le quieras dar
+3. Agregar el contenido de la llave pública de tu computadora
+4. Actualizar la URL del repositorio remoto usando SSH:
+```bash
+git remote set-url origin url-ssh-del-repositorio-en-github
+```
+
+### Comandos para copiar la llave SSH
+
+**Mac:**
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+**Windows (Git Bash):**
+```bash
+clip < ~/.ssh/id_rsa.pub
+```
+
+**Linux (Ubuntu):**
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+## Importante
+
+Las buenas costumbres nos enseñan que antes de hacer un push, siempre debemos hacer un pull, un fetch, esto para que si alguien ya hizo algún cambio, no se genere un conflicto.
+
+## Invitar a un colaborador
+
+Para invitar a un colaborador debemos:
+1. Ir a GitHub
+2. Seleccionar: Settings -> Colaborators
+3. Ingresar contraseña o un F2A de verificación
+4. Enviar la invitación escribiendo el nombre de usuario
+
+**Nota**: Del otro lado el usuario invitado solo debe aceptar y listo, ya puede participar del proyecto haciendo commit.
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+- **Dante Nicolás Martinez**
+- **Segundo Semestre Parte 4:**
+- 
+### [Video Capitulo 03](https://drive.google.com/file/d/1LgOq1_qtjeZcIq1f1PR4GMV8AWANN6Ju/view?usp=drive_link)
+
+### [PDF](https://docs.google.com/presentation/d/14odWSx7zoJ78nEj83V5sKkVaRIxqk0j_/edit?usp=drive_link&ouid=103827187004520077964&rtpof=true&sd=true)
+
+Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+*Profesor Ariel Betancud*
