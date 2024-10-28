@@ -89,3 +89,72 @@ Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 *Profesor Ariel Betancud*
+
+--------------------
+
+# CLASE 02 MIÉRCOLES 21 DE AGOSTO DEL 2024 - Portafolio 2
+
+## Configuración SSH en GitHub
+
+### Cargar llave SSH pública
+Para copiar la llave pública debes ir al archivo `.ssh` y allí encontrarás el archivo `.pub` lo podes abrir con el txt, luego copiar el contenido que esta dentro.
+
+### Pasos para agregar SSH a GitHub
+1. Copiar la llave pública
+2. Ir a GitHub
+3. Ir a Settings
+4. Ir a SSH and GPG keys
+5. Crear nueva SSH key:
+   - Click en "New SSH key"
+   - Poner nombre
+   - Pegar la SSH pública
+
+**Nota**: Se aconseja que la SSH tenga el nombre del ordenador en el que estas trabajando. Esto se debe hacer con cada PC nueva o dispositivo nuevo que tengamos para acceder a nuestra cuenta de GitHub.
+
+## Comandos Git importantes
+
+```bash
+# Ver en qué rama estamos
+git branch
+
+# Ponernos en la rama master
+git checkout master
+
+# Cambiar el nombre de la rama master a main
+git branch -M main
+
+# Agregar repositorio remoto (ejemplo)
+git remote add origin git@github.com:nombreUsuario/class-git.git
+
+# Ver si ya está conectado
+git remote -v
+
+# Mergear la rama 'segunda' en main
+git merge segunda
+
+# Hacer commit
+git commit -am "Uso de GitHub parte 20"
+
+# Subir cambios a GitHub
+git push origin main
+```
+
+### Nota sobre el cambio de nombre de rama
+Frente al cambio de nombre de rama master a main, suele suceder que en el repo de GitHub se hayan creado dos ramas, la rama master y la rama main. Para solucionarlo:
+1. Ir al repositorio
+2. Ir a Settings
+3. Cambiar la rama principal de master a main
+4. Borrar la rama master
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+- **Dante Nicolás Martinez**
+- **Segundo Semestre Parte 2:**
+### [Video Capitulo 01](https://drive.google.com/file/d/1op_N1lCHQey2jIJKLHt0JyDi5tqlSYcQ/view?usp=drive_link)
+
+### [PDF](https://drive.google.com/file/d/1irin9hTI2Jqf-0Zg2mOsB1nzARkL4Gs3/view?usp=drive_link)
+
+Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+*Profesor Ariel Betancud*
