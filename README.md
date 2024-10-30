@@ -257,3 +257,83 @@ Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 *Profesor Ariel Betancud*
+
+--------------------
+
+# CLASE 05 MIÉRCOLES 11 DE SEPTIEMBRE DEL 2024 - Portafolio 5
+
+## Git tag y versiones en GitHub
+
+En Git, las etiquetas o Git tags tienen un papel importante al asignar versiones a los commits más significativos de un proyecto. Aprender a utilizar el comando `git tag`, entender los diferentes tipos de etiquetas, cómo crearlas, eliminarlas y compartirlas, es esencial para un flujo de trabajo eficiente.
+
+### Creación de etiquetas en Git
+
+```bash
+git tag <identificador>
+```
+
+Sustituye `<identificador>` con un identificador semántico que refleje el estado del repositorio en el momento de la creación. Git admite etiquetas anotadas y ligeras.
+
+### Tipos de Etiquetas
+- **Etiquetas anotadas**: Almacenan información adicional como:
+  - Fecha
+  - Etiquetador
+  - Correo electrónico
+  - Ideales para publicaciones públicas
+- **Etiquetas ligeras**: Son más simples y se emplean como "marcadores" de una confirmación específica
+
+### Listado de etiquetas
+
+Para obtener una lista de etiquetas en el repositorio:
+```bash
+git tag
+```
+
+Esto mostrará una lista de las etiquetas existentes, como:
+```
+v1.0
+v1.1
+v1.2
+```
+
+Para perfeccionar la lista, puedes utilizar opciones adicionales, como `-l` con una expresión comodín.
+
+### Uso compartido de etiquetas
+
+Compartir etiquetas requiere un enfoque explícito al usar el comando `git push`. Por defecto, las etiquetas no se envían automáticamente.
+
+Para enviar etiquetas específicas:
+```bash
+git push origin <tag-name>
+```
+
+Para enviar varias etiquetas a la vez:
+```bash
+git push origin --tags
+```
+
+### Eliminación de etiquetas
+
+Para eliminar una etiqueta:
+```bash
+git tag -d <tag-name>
+```
+
+Esto eliminará la etiqueta identificada en el repositorio local.
+
+### Resumen
+Las etiquetas en Git son esenciales para asignar versiones y capturar instantáneas importantes en el historial de un proyecto. Aprender a crear, listar, compartir y eliminar etiquetas mejorará tu flujo de trabajo con Git.
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+- **Dante Nicolás Martinez**
+- **Segundo Semestre Parte 5:**
+
+### [Video Capitulo 04](https://drive.google.com/file/d/1F_kpPnOEJRQDvdymclsKNyqr4h09NWfz/view?usp=drive_link)
+
+### [PDF](https://drive.google.com/file/d/12MArnwaV5RfzzedZ0AtDlRk_a12kL-9W/view?usp=drive_link)
+
+Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+*Profesor Ariel Betancud*
