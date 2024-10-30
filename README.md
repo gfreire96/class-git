@@ -337,3 +337,31 @@ Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 *Profesor Ariel Betancud*
+
+--------------------
+
+# CLASE 06 - MIÉRCOLES 18 DE SEPTIEMBRE DEL 2024
+## Portafolio 6
+
+### Error con los tags - Investigación
+- ¿Qué pasa si por error cargamos un tag dos veces?
+- ¿Cómo solucionarías este problema o error?
+
+**Nota importante:** La respuesta debe ser enviada antes de las 23 horas por cada grupo. Deben enviar comandos y todos los pasos que harían frente a este conflicto.
+
+### PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en lo que es un portafolio por el Tutor:
+- **Tutor:** Dante Nicolás Martinez
+- **Segundo Semestre Parte 6:** Video Capítulo 05
+
+### Materiales
+### [Video Capitulo 05](https://drive.google.com/file/d/1SV4-SAizEU84_T9B6-iBHJm5c72Gt-Z5/view?usp=drive_link)
+
+### [PDF](https://drive.google.com/file/d/1HoelHkism3xk_2BzmpN_rMhWokEDADaf/view?usp=drive_link)
+
+### Instrucciones
+Revisar y ejecutar cada comando, hacerlo como práctica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+### Profesor
+Ariel Betancud
